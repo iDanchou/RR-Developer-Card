@@ -3,7 +3,7 @@ import "./styles.css";
 
 function SkillList() {
   return (
-    <div className="skill-list data">
+    <div className="skill-list">
       <Skill backgroundColor="pink" skillName="JavaScript" emoji="💪🏾" />
       <Skill backgroundColor="teal" skillName="React" emoji="⚛️" />
       <Skill backgroundColor="purple" skillName="HTML+CSS" emoji="💪🏾" />

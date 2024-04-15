@@ -1,6 +1,17 @@
 import React from "react";
-import "./styles.css";
+import "./Components/styles.css";
+import Avatar from "./Components/avatar";
+import Intro from "./Components/intro";
+import SkillList from "./Components/skillList";
 
-const num = 3;
+function App() {
+  return (
+    <div className="card">
+      <Avatar />
+      <Intro />
+      <SkillList />
+    </div>
+  );
+}
 
-console.log(num * 4);
+export default App;
